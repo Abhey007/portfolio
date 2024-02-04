@@ -1,0 +1,129 @@
+
+
+
+
+
+*{
+    background-color: #000000;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom:2px solid wheat ;
+}
+.hlinks{
+    justify-content: end;
+    margin-right: 8em;
+    display: flex;
+    width: 70%;  
+    gap: 5%;  
+}
+.hlinks a{
+    color: rgb(184, 255, 5);
+    text-decoration-line: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4em;
+    padding-bottom: 7px;
+    
+}
+.hlinks a:hover{
+    border-bottom:2px solid red ;
+    transition: width 2s;
+}
+
+.port h1{
+    font-size: 5em;
+    margin-left: 80px;
+    color: aquamarine;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    margin: 5em;
+    margin-top: 10em;
+}
+.ab_l{
+    width: 60%;
+}
+.ab_l h2{
+    color: aliceblue;
+    font-size: 3em;
+    letter-spacing: 5px;
+
+}
+.ab_l p{
+    color: aliceblue;
+    font-size: large;
+}
+.ab_r img{
+    border-radius:50% ;
+    filter: drop-shadow(0 0 30px white);
+}
+.knowledge{
+    display: flex;
+    margin-top: 9em;
+}
+.knowledge ul{
+    display: block;
+ }
+ .knowledge li i{
+     flex-wrap: wrap;
+     font-size: 10em;
+     padding: 20px;
+     color: aqua;
+ }
+ .content{
+    margin-top: 8em;
+ }
+ .content h2{
+    color: antiquewhite;
+    padding: 68px;
+    font-size: 2em;
+ }
+.project{
+    margin-top: 10em;
+}
+.project h1{
+    color: rgb(183, 255, 0);
+    font-size: 4em;
+    margin-left: 30px;
+    padding: 30px;
+}
+ .project ul{
+    display: flex;
+    justify-content: space-around;
+ }
+ .p_name{
+    display: flex;
+    justify-content: space-around;
+ }
+ .p_name h2{
+    color: rgb(32, 123, 203);
+ }
+footer{
+    border-top: 1px solid gray;
+    margin-top: 15em;
+    padding-top: 3em;
+    /* background-color: rgb(122, 118, 113); */
+    height: 30em;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+footer ul i{
+    color: rgba(151, 232, 10, 0.667);
+    font-size: 2em;
+}
+footer p{
+    margin-top: 4em;
+    padding: 30px;
+    color: azure;
+    
+}
